@@ -1,0 +1,98 @@
+body {
+    font-family: "Bungee";
+    margin: 10px 50px;
+}
+
+a {
+    color: #7944e6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #10fdff;
+}
+
+#ccc {
+    padding-bottom: 10px;
+}
+
+#nav-links {
+    list-style: none;
+    float: right;
+}
+
+#nav-links li {
+    display: inline-block;
+}
+
+#nav-links a {
+    position: relative;
+    padding-left: 25px;
+}
+
+#food-truck {
+    width: 400px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin: 20px;
+}
+
+#about {
+    background-color: #ff00ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about h2 {
+    margin: 20px;
+    height: 24px;
+    align-self: flex-start;
+}
+
+#about p {
+    text-align: justify;
+    line-height: 100%;
+    padding-right: 5%;
+    margin-left: 20px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 40px;
+}
+
+#item {
+    border: solid #7944e6 4px;
+    margin: 10px;
+    height: 450px;
+    text-align: center;
+}
+
+#item img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+}
+
+@media screen and (min-width: 768px) {
+    #menu {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    #about {
+        flex-direction: row;
+    }
+
+    #food-truck {
+        margin: 20px 50px;
+    }
+}
